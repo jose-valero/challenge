@@ -1,0 +1,21 @@
+{
+  "name": "reto-fullstack",
+  "version": "0.1.0",
+  "description": "reto fullstack con websocket y nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "reto",
+    "server",
+    "socket",
+    "node"
+  ],
+  "author": "Jose Valero",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}

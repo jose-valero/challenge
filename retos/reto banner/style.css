@@ -1,0 +1,105 @@
+.banner_container {
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  /* aqui se corrigio la ruta de (/300x250.jpg) a como esta actulamente.  */
+  background-image: url(300x250.jpg);
+  margin: auto;
+  border: 2px solid black;
+}
+
+img {
+  animation-duration: 0.7s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  position: relative;
+  top: 126px;
+  left: 141px;
+}
+
+@keyframes slidein {
+  from {
+    opacity: 25%;
+    top: 126px;
+  }
+
+  to {
+    top: 141px;
+  }
+}
+
+@-webkit-keyframes slidein {
+  from {
+    opacity: 25%;
+    top: 126px;
+  }
+
+  to {
+    top: 141px;
+  }
+}
+
+button {
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-name: btn;
+  animation-iteration-count: 1;
+
+  border-radius: 10px;
+  background-color: #ed1650;
+  opacity: 70%;
+  border: 0;
+  color: white;
+  padding: 2%;
+  font-size: small;
+  position: relative;
+  top: 145px;
+  left: 195px;
+  cursor: pointer;
+}
+
+@-webkit-keyframes btn {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes btn {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0.7;
+  }
+}
+
+

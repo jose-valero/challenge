@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto Fullstack</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+    <div id="contendedor">
+        <div id="aviso"></div>
+        <div id="output"></div>
+        <div id="video"></div>
+    </div>
+
+
+
+   
+    <script>
+        const socket = io.connect('http://localhost:8080', {
+            forceNew: true,
+        })
+
+        socket.on('mensaje', data =>
+            console.log(data)
+        ) 
+    </script>
+   
+   <script src="../video.js"></script>
+</body>
+
+</html>

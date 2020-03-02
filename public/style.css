@@ -1,0 +1,15 @@
+body {
+    background: aquamarine;
+}
+
+.container {
+    background: black;
+    width: 350px;
+    height: 250px;
+}
+
+.repro {
+    background: chartreuse;
+    width: 150px;
+    height: 125px;
+}
